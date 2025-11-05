@@ -1,0 +1,24 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Parques",
+      "descricao": "Lugares ao ar livre para relaxar e se divertir."
+    },
+    {
+      "id": 2,
+      "nome": "Museus",
+      "descricao": "Locais históricos e culturais para explorar."
+    },
+    {
+      "id": 3,
+      "nome": "Restaurantes",
+      "descricao": "Melhores lugares para saborear a culinária local."
+    },
+    {
+      "id": "4",
+      "nome": "Shoppings",
+      "descricao": "Lugares para passear e de compras."
+    }
+  ]
+}
