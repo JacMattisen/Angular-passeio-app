@@ -15,10 +15,13 @@
         placeholder="Ex: Praia do Forte, Shopping Center"
         class="w-full p-3 border order-gray-300 rounded shadow-sm focus:ring focus:ring-blue-400"
       />
+      <span class="text-red-500 text-sm" *ngIf="isCampoInvalido('nome')">
+        Campo obrigatório</span
+      >
     </div>
 
     <div class="mb-4">
-      <label for="nome" class="block text-gray-800 font-medium mb-2">
+      <label for="categoria" class="block text-gray-800 font-medium mb-2">
         Categoria
       </label>
       <select
@@ -32,6 +35,9 @@
           {{ categoria.nome }}
         </option>
       </select>
+      <span class="text-red-500 text-sm" *ngIf="isCampoInvalido('categoria')">
+        Campo obrigatório</span
+      >
     </div>
 
     <div class="mb-4">
@@ -46,6 +52,10 @@
         placeholder="Ex: São Paulo, Rio de Janeiro"
         class="w-full p-3 border order-gray-300 rounded shadow-sm focus:ring focus:ring-blue-400"
       />
+
+      <span class="text-red-500 text-sm" *ngIf="isCampoInvalido('localizacao')">
+        Campo obrigatório</span
+      >
     </div>
 
     <div class="mb-4">
@@ -60,6 +70,10 @@
         placeholder="Ex: https://example.com/foto.jpg"
         class="w-full p-3 border order-gray-300 rounded shadow-sm focus:ring focus:ring-blue-400"
       />
+
+      <span class="text-red-500 text-sm" *ngIf="isCampoInvalido('urlFoto')">
+        Campo obrigatório</span
+      >
     </div>
 
     <div class="mb-4">
@@ -79,6 +93,10 @@
         <option [value]="3">3 - Bom</option>
         <option [value]="4">4 - Ótimo</option>
       </select>
+
+      <span class="text-red-500 text-sm" *ngIf="isCampoInvalido('avaliacao')">
+        Campo obrigatório</span
+      >
     </div>
 
     <button
