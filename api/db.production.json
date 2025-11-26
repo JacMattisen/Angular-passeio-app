@@ -1,0 +1,47 @@
+{
+  "categorias": [
+    {
+      "id": "1",
+      "nome": "Parques",
+      "descricao": "Lugares ao ar livre para relaxar e se divertir."
+    },
+    {
+      "id": "2",
+      "nome": "Museus",
+      "descricao": "Locais históricos e culturais para explorar."
+    },
+    {
+      "id": "3",
+      "nome": "Restaurantes",
+      "descricao": "Melhores lugares para saborear a culinária local."
+    },
+    {
+      "id": "4",
+      "nome": "Shoppings",
+      "descricao": "Lugares para passear e de compras."
+    },
+    {
+      "id": "a858",
+      "nome": "Praias",
+      "descricao": "Lugar para ir com a família ao mar"
+    }
+  ],
+  "lugares": [
+    {
+      "id": "a241",
+      "nome": "Praia do Espelho",
+      "categoria": "Praias",
+      "localizacao": "Bahia",
+      "urlFoto": "https://www.melhoresdestinos.com.br/wp-content/uploads/2020/09/hoteis-pousadas-litoral-sul-bahia-cala-divino-1.jpg",
+      "avaliacao": "4"
+    },
+    {
+      "id": "8ef0",
+      "nome": "Parque do Ibirapuera",
+      "categoria": "Parques",
+      "localizacao": "São Paulo",
+      "urlFoto": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-sao-paulo-capa2019-04.jpg",
+      "avaliacao": "4"
+    }
+  ]
+}

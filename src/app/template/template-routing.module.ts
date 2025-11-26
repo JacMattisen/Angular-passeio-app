@@ -16,7 +16,7 @@ const routes: Routes = [
         pathMatch: 'full',
         data: {
           titulo: 'Categorias',
-          subtitulo: 'Lista de categorias de passeios',
+          subTitulo: 'Lista de categorias de passeios',
         },
       },
       {
@@ -26,7 +26,7 @@ const routes: Routes = [
         pathMatch: 'full',
         data: {
           titulo: 'Lugares',
-          subtitulo: 'Lista de lugares para passeios',
+          subTitulo: 'Lista de lugares para passeios',
         },
       },
       {
